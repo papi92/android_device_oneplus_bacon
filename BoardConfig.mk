@@ -21,7 +21,7 @@
 TARGET_KERNEL_CONFIG := cyanogenmod_bacon_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3
 BOARD_CUSTOM_BOOTIMG_MK := device/oneplus/bacon/mkbootimg.mk
-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.8
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
 
